@@ -1,0 +1,16 @@
+<dependency>
+     <groupId>com.github.ulisesbocchio</groupId>
+     <artifactId>jasypt-maven-plugin</artifactId>
+     <version>3.0.5</version>
+</dependency>
+
+==============
+
+demo.jasypt.username = DEC(username)
+demo.jasypt.password = DEC(password)
+
+jasypt.encryptor.password = MyPassword
+
+==============
+
+run cmd:  mvn jasypt:encrypt
